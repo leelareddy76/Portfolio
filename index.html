@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leela Manasa Ponnathota  | Data Science Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #ffffff;
+    }
+    header {
+      padding: 60px 10%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .intro { max-width: 600px; }
+    .intro h1 { font-size: 48px; margin-bottom: 10px; }
+    .intro span { color: #00e5ff; }
+    .intro p { font-size: 18px; line-height: 1.6; opacity: 0.9; }
+    .profile-pic {
+  width: 280px;
+  height: 360px;          /* rectangle shape */
+  border-radius: 16px;    /* slight rounded corners (optional) */
+  border: 4px solid #00e5ff;
+  object-fit: cover;
+  box-shadow: 0 0 30px rgba(0, 229, 255, 0.4);
+}
+
+    .buttons { margin-top: 30px; }
+    .btn {
+      text-decoration: none; color: #0f2027; background: #00e5ff;
+      padding: 12px 24px; border-radius: 30px; font-weight: 600;
+      margin-right: 15px; transition: all 0.3s ease; display: inline-block;
+    }
+    .btn:hover { background: #ffffff; transform: translateY(-3px); }
+    section { padding: 60px 10%; }
+    h2 { font-size: 36px; margin-bottom: 30px; color: #00e5ff; }
+    .card-container {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 25px;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 20px; padding: 25px; backdrop-filter: blur(10px);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover { transform: translateY(-8px); box-shadow: 0 15px 30px rgba(0,0,0,0.3); }
+    footer { text-align: center; padding: 30px; background: rgba(0,0,0,0.3); font-size: 14px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="intro">
+    <h1>Hi, I'm <span>Leela Manasa Ponnathota</span></h1>
+    <p>
+      A 3rd year <b>Data Science</b> student passionate about <b>Machine Learning</b>,
+      <b>Deep Learning</b>, and <b>Generative AI</b>. I enjoy building data-driven
+      solutions and deploying real-world projects.
+    </p>
+    <div class="buttons">
+      <a href="Photos/P_Leela_Manasa_Resume.pdf" class="btn" download>Download Resume</a>
+      <a href="https://www.linkedin.com/in/ponnathota-leela-manasa-035640322/" class="btn" target="_blank">LinkedIn</a>
+      <a href="https://github.com/leelareddy76" class="btn" target="_blank">GitHub</a>
+    </div>
+  </div>
+  <img src="Photos/profile.png" alt="Leela Manasa" class="profile-pic" />
+</header>
+
+<section>
+  <h2>Projects</h2>
+  <div class="card-container">
+    <div class="card">
+      <h3>Personal Portfolio Website</h3>
+      <p>Designed and developed a professional portfolio using HTML and CSS to showcase skills and achievements.</p>
+    </div>
+    <div class="card">
+      <h3>Machine Learning Mini Project</h3>
+      <p>Implemented a basic ML model using Python and Pandas for data analysis and prediction.</p>
+    </div>
+    <div class="card">
+      <h3>Deep Learning Practice Project</h3>
+      <p>Worked with neural networks and CNNs to understand model architecture and training concepts.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Tools & Technologies</h2>
+  <div class="card-container">
+    <div class="card">Python</div>
+    <div class="card">Pandas & NumPy</div>
+    <div class="card">Scikit-learn</div>
+    <div class="card">TensorFlow / Keras</div>
+    <div class="card">Generative AI Tools</div>
+    <div class="card">Git & GitHub</div>
+    <div class="card">VS Code</div>
+    <div class="card">Google Colab</div>
+  </div>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <div class="card-container">
+    <div class="card"><h3>B.Tech – Data Science</h3><p>Santhiram Engineering College, Nandyal</p></div>
+    <div class="card"><h3>Intermediate (+2)</h3><p>Narayana Junior College<br>862 / 1000</p></div>
+    <div class="card"><h3>SSC</h3><p>Vivekananda High School<br>10 GPA</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Workshops & Learning</h2>
+  <div class="card-container">
+    <div class="card"><h3>Web Development</h3><p>HTML, CSS, JavaScript – built responsive web pages.</p></div>
+    <div class="card"><h3>Generative AI</h3><p>Learned GenAI concepts and explored AI productivity tools.</p></div>
+    <div class="card"><h3>Machine Learning & Deep Learning</h3><p>Worked with ML models, neural networks, CNNs, and deployed projects on GitHub.</p></div>
+  </div>
+</section>
+
+<footer>© 2026 P. Leela Manasa | Data Science Portfolio</footer>
+
+</body>
+</html>
